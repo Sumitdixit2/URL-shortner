@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>URL Shortener</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main heading of the webpage -->
+    <h1>URL Shortener</h1>
+
+    <!-- Container for the main content -->
+    <div class="container">
+        <!-- Box to hold the input and button elements -->
+        <div class="box">
+
+            <!-- Section for entering the original URL and generating a shortened URL -->
+            <div class="content1">
+                <!-- Input field for the original URL -->
+                <input type="text" class="input" id="original_link" placeholder="Enter Your URL">
+                <!-- Button to generate the shortened URL -->
+                <button class="btn" id="generate">Generate</button>
+            </div>
+
+            <!-- Section for displaying and copying the shortened URL -->
+            <div class="content2">
+                <!-- Input field for the shortened URL -->
+                <input type="text" class="input" id="shorten_link" placeholder="Copy URL">
+                <!-- Button to copy the shortened URL to clipboard -->
+                <button class="btn" id="copy">Copy</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
