@@ -1,62 +1,47 @@
-*{
-    margin:0px;
-    padding:0px;
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #f5f5f5;
+/* Styling for the body */
+body {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: flex-start; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5; /* Light grey background color */
 }
 
-h1{
-    font-weight: bold;
-    font-size: 70px;
-    color:#333333;
+/* Styling for the main heading */
+h1 {
+    font-weight: bold; /* Bold font */
+    font-size: 70px; /* Large font size */
+    color: #333333; /* Dark grey text color */
 }
 
-.container{
-    margin-top: 200px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 40px 60px; /* Add padding to control the inner spacing */
-    border-radius: 16px; /* rounding the container corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adding a subtle shadow */
-    align-items: center;
-
+/* Container styling */
+.container {
+    margin-top: 200px; /* Margin to push the container down */
+    background-color: white; /* White background color */
+    display: flex; /* Use Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    padding: 40px 60px; /* Padding for inner spacing */
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    align-items: center; /* Center items horizontally */
 }
 
-.input{
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 12.5px;
-    padding-bottom: 12.5px;
-    border: 1px solid #f5f5f5;
-    border-radius: 16px;
-    background-color: #f0f0f0;
-    color: #333333;
-}
+/* Styling for input fields */
+.input {
+    padding-left: 70px; /* Left padding */
+    padding-right: 70px; /* Right padding */
+    padding-top: 12.5px; /* Top padding */
+    padding-bottom: 12.5px; /* Bottom padding */
+    border: 1px solid #f5f5f5; /* Light grey border */
+    border-radius: 16px
 
-.btn{
-    padding: 8px 35px 8px 35px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    background-color: #007BFF;
-    margin-left: 10px;
-    color: white;
-}
-
-.content2{
-    margin-top: 20px;
-}
-
-.btn:hover{
-    background-color: #0056b3;
-}
 
 
 
